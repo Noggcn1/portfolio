@@ -35,12 +35,12 @@ export const About = (): JSX.Element => {
 
           <div className="flex flex-col gap-4">
             <p className="font-audiowide text-[14px]  text-center md:text-start px-4 md:px-0 md:pr-4 md:text-[16px] lg:text-[20px] leading-[1.5] mb-5">
-              I'm a 27-year-old developer passionate about games. My development
-              journey began in 2019, when I also started studying systems
-              analysis and development. Since then, I have faced countless
-              challenges that have encouraged me to continue learning and
-              growing. Along the way, I gained valuable knowledge that not only
-              improves my skills, but also allows me to support and help my
+              I&apos;m a 27-year-old developer passionate about games. My
+              development journey began in 2019, when I also started studying
+              systems analysis and development. Since then, I have faced
+              countless challenges that have encouraged me to continue learning
+              and growing. Along the way, I gained valuable knowledge that not
+              only improves my skills, but also allows me to support and help my
               friends and colleagues.
             </p>
             <div className="flex justify-center md:justify-start gap-5 md:gap-10">
