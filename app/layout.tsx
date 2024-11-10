@@ -22,7 +22,7 @@ const AnonymousProFont = Anonymous_Pro({
 });
 
 const ApexFont = FontLocal({
-  src: './fonts/apex.ttf',
+  src: './fonts/Apex.ttf',
   variable: '--font-apex',
   weight: '400',
 });
