@@ -1,22 +1,28 @@
+'use client';
 import { Wave1 } from '@/assets/svg/wave1';
 import { Wave2 } from '@/assets/svg/wave2';
 import Dark5 from '@/assets/img/dark5.png';
 import Image from 'next/image';
 import { RainbowButton } from '../ui/rainbow-button';
 import { Tec1 } from '@/assets/svg/tec1';
-import {
-  Binoculars,
-  User,
-  User2,
-  UserPlus,
-  UserRoundX,
-  UserX2,
-} from 'lucide-react';
+import { Binoculars } from 'lucide-react';
 import { cn } from '@/lib/utils';
+import { useWebStore } from '@/app/_store';
 
 export const About = (): JSX.Element => {
+  const { setSection, section } = useWebStore();
+
+  const onMouseOver = () => {
+    setSection('about');
+  };
+
+  const sectionActual = section === 'about';
+
   return (
-    <div className="relative w-full flex flex-col mt-10 z-40">
+    <div
+      className="relative w-full flex flex-col mt-10 z-40"
+      onMouseOver={onMouseOver}
+    >
       <Wave1 className="w-full" />
       <div className="relative pt-[120px] md:pt-0 h-[600px] w-full bg-[#200431] m-0 px-2 flex justify-center gap-2 mt-[-10px] pr-4 items-center">
         <Image
@@ -25,6 +31,7 @@ export const About = (): JSX.Element => {
           className={cn(
             'w-[220px] h-[220px] md:w-[300px] md:h-[300px] lg:w-[450px] lg:h-[450px] lgx:w-[500px] lgx:h-[500px] xl:w-[600px]  object-cover z-0 grayscale brightness-50 hover:brightness-100 hover:grayscale-0 transition-all duration-300',
             'absolute z-10 md:right-0 top-0 md:relative',
+            `${sectionActual && 'brightness-110 grayscale-0'}`,
           )}
         />
 
