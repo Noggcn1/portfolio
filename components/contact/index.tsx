@@ -16,7 +16,7 @@ export const Contact = (): JSX.Element => {
         Contact
       </h1>
 
-      <div className="text-white font-archivo text-[20px] lg:text-[40px] leading-[1.5] mb-10 mt-20 flex flex-col gap-4">
+      <div className="text-white font-archivo text-[14px] md:text-[20px] lg:text-[40px] leading-[1.5] mb-10 mt-20 flex flex-col gap-4">
         <div className="flex gap-4 items-center">
           <GmailSVG />
           <p>nogueira.julio1997@gmail.com</p>
@@ -27,7 +27,7 @@ export const Contact = (): JSX.Element => {
         </div>
         <div className="flex gap-4 items-center">
           <GithubSVG className="w-[60px] h-[60px]" />
-          <p>/noguecisar97</p>
+          <p>/noggcn1</p>
         </div>
       </div>
     </div>
