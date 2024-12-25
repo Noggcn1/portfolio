@@ -41,6 +41,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
+        suppressHydrationWarning={true}
         className={`
           ${AnonymousProFont.variable} ${ArchivoFont.variable} ${AudiowideFont.variable} ${ApexFont.variable} 
           flex bg-black w-full flex-col items-center

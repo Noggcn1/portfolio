@@ -1,0 +1,130 @@
+[
+    {
+        "name": "Systems Analyst",
+        "nameCompany": "NeoBPO",
+        "type": "Local / Remote",
+        "duration": "1 year 2 months",
+        "dates": "10/2019 - 12/2020",
+        "functions": [
+            "Initial role as service desk, promoted to Systems Developer",
+            "Experience in troubleshooting various systems, from 1st to 3rd level",
+            "Development of APIs in a Java system to improve the resolution workflow.",
+            "Created documentation to support other team members",
+            "Developed service automation systems",
+            "Shared knowledge in meetings",
+            "Provided support for outsourced services",
+            "Worked with various clients at the same time"
+        ],
+        "skills": [
+            "java",
+            "c#",
+            "html",
+            "css",
+            "js"
+        ]
+    },
+    {
+        "name": "Mid Software Developer",
+        "nameCompany": "Osas",
+        "type": "Remote",
+        "duration": "3 months",
+        "dates": "01/2021 - 03/2021",
+        "functions": [
+            "Developed a mobile app (TruckerPay) using React Native",
+            "Developed a website using React",
+            "Implemented backend features in C#",
+            "Worked with a BPM development platform",
+            "Experience with C#, .NET, HTML, CSS, and JavaScript",
+            "Shared knowledge in meetings"
+        ],
+        "skills": [
+            "react",
+            "react native",
+            "c#",
+            "html",
+            "css",
+            "js",
+            "jquery"
+        ]
+    },
+    {
+        "name": "Senior Full Stack Developer",
+        "nameCompany": "Riachuelo (BSX consultancy)",
+        "type": "Remote",
+        "duration": "1 year 3 months",
+        "dates": "03/2021 - 06/2022",
+        "functions": [
+            "Developed applications using React, Next.js, TypeScript, Redux, React Query, Jest, and GraphQL",
+            "Built a Storybook using React, TypeScript, and Jest based on the product design system, improving team efficiency and sharing it through a web page for designers and stakeholders",
+            "Created scripts with Terraform to automate the provisioning of services in AWS Cloud",
+            "Developed pages for legacy systems using JavaScript, HTML, and CSS in Magento",
+            "Monitored business processes",
+            "Participated in product meetings",
+            "Shared knowledge and introduced new insights during bi-weekly developer meetings",
+            "Worked on mobile development using React Native"
+        ],
+        "skills": [
+            "react",
+            "next.js",
+            "typescript",
+            "redux",
+            "react query",
+            "jest",
+            "graphql",
+            "terraform",
+            "aws",
+            "javascript",
+            "html",
+            "css",
+            "magento"
+        ]
+    },
+    {
+        "name": "Senior Frontend Developer",
+        "nameCompany": "CVC Corp (OPAH consultancy)",
+        "type": "Remote",
+        "duration": "1 year 9 months",
+        "dates": "11/2021 - 08/2022",
+        "functions": [
+            "Developed and maintained applications using React, Next.js, TypeScript, Redux, React Query, and Jest",
+            "Worked on various fronts of the Submarino Viagens website using these technologies",
+            "Provided maintenance for almost all areas of the website",
+            "Worked with SCRUM methodology",
+            "Collaborated with other teams to improve demand resolution",
+            "Built a Storybook using React, TypeScript, and Jest, based on the product design system, improving team efficiency and sharing it through a web page for designers and stakeholders"
+        ],
+        "skills": [
+            "react",
+            "next.js",
+            "typescript",
+            "redux",
+            "react query",
+            "jest",
+            "scrum"
+        ]
+    },
+    {
+        "name": "Senior Full Stack Software Developer",
+        "nameCompany": "Supley",
+        "type": "Remote",
+        "duration": "2 years 2 months",
+        "dates": "09/2022 - Currently",
+        "functions": [
+          
+        ],
+        "skills": [
+            "react",
+            "angular 9+",
+            "typescript",
+            "c#",
+            "sql server",
+            "sap b1",
+            "fluig",
+            "sql hana",
+            "html",
+            "css",
+            "js",
+            "java"
+        ]
+    }
+]

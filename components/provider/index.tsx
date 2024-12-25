@@ -11,10 +11,10 @@ export const Provider = (): JSX.Element => {
 
   useEffect(() => {
     if (width < 768) {
-      if (y >= 0 && y <= 250) {
+      if (y >= 0 && y < 300) {
         setSection('banner');
       }
-      if (y >= 300 && y <= 599) {
+      if (y >= 300 && y < 699) {
         setSection('about');
       }
       if (y >= 699 && y <= 1199) {

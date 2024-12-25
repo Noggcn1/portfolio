@@ -3,6 +3,9 @@ import { Banner } from '@/components/banner';
 import { About } from '@/components/about';
 import { Progress } from '@/components/progress';
 import { Provider } from '@/components/provider';
+import { Projects } from '@/components/projects';
+import { Contact } from '@/components/contact';
+import { Footer } from '@/components/footer';
 
 export default function Home(): JSX.Element {
   return (
@@ -12,6 +15,9 @@ export default function Home(): JSX.Element {
       <Banner />
       <About />
       <Progress />
+      <Projects />
+      <Contact />
+      <Footer />
     </div>
   );
 }
