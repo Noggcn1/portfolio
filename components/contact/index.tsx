@@ -10,7 +10,7 @@ export const Contact = (): JSX.Element => {
       <Image
         src={ContactPNG}
         alt="Contact"
-        className="w-[500px] h-[500px] object-cover"
+        className="w-[350px] md:w-[500px] md:h-[500px] object-cover"
       />
       <h1 className="font-apex text-[50px] lg:text-[95px] text-white">
         Contact
