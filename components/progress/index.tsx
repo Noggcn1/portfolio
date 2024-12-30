@@ -5,7 +5,7 @@ import { CardProgress } from './card';
 
 export const Progress = (): JSX.Element => {
   return (
-    <div className="w-full min-h-[600px] mt-10">
+    <div id="experience" className="w-full min-h-[600px] mt-10">
       <div className="flex justify-center items-center">
         <Image
           src={dark6}

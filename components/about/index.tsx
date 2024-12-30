@@ -20,6 +20,7 @@ export const About = (): JSX.Element => {
 
   return (
     <div
+      id="about"
       className="relative w-full flex flex-col mt-10 z-40"
       onMouseOver={onMouseOver}
     >

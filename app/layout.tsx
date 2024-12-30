@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import FontLocal from 'next/font/local';
 import { Audiowide, Archivo, Anonymous_Pro } from 'next/font/google';
 import './globals.css';
+import { ScrollToTopOrb } from '@/components/orbTop';
 
 const AudiowideFont = Audiowide({
   subsets: ['latin'],
@@ -48,6 +49,7 @@ export default function RootLayout({
         `}
       >
         {children}
+        <ScrollToTopOrb />
       </body>
     </html>
   );

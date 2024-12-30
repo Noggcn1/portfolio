@@ -1,10 +1,10 @@
+'use client';
 import { Wave3 } from '@/assets/svg/wave3';
 import { Wave4 } from '@/assets/svg/wave4';
 import Angel from '@/assets/img/angel.png';
 import OrbBlue from '@/assets/img/orbBlue.png';
 import OrbPurple from '@/assets/img/orbPurple.png';
 import SpawnupPNG from '@/assets/img/spawnup.png';
-import ProjectNow from '@/assets/img/projectNow.png';
 import Image from 'next/image';
 import { RainbowButton } from '../ui/rainbow-button';
 import { GithubSVG } from '@/assets/svg/git';
@@ -26,8 +26,20 @@ export const Projects = (): JSX.Element => {
     4: 'animate-spin-orbit-purple4',
   };
 
+  const links: { [key: string]: string } = {
+    github: 'https://github.com/Noggcn1/spawn-up',
+    website: 'https://spawnup.vercel.app/',
+  };
+
+  const redirect = (e: string) => {
+    const link = links[e];
+    if (link) {
+      window.open(link, '_blank');
+    }
+  };
+
   return (
-    <div className="w-full mt-10 flex-col overflow-hidden">
+    <div id="projects" className="w-full mt-10 flex-col overflow-hidden">
       <Wave3 className="w-full" />
 
       <div className="relative pt-[50px] md:pt-0 w-full bg-white m-0 px-2 flex flex-col justify-center gap-2 mt-[-10px] pr-4 items-center pb-20">
@@ -91,10 +103,16 @@ export const Projects = (): JSX.Element => {
             </div>
 
             <div className="absolute bottom-0 p-10 flex gap-2 md:gap-10 w-full justify-center items-center md:flex-row flex-col">
-              <RainbowButton className="w-[300px] font-apex flex gap-2 items-center justify-center active:scale-90 transition-all">
+              <RainbowButton
+                onClick={() => redirect('github')}
+                className="w-[300px] font-apex flex gap-2 items-center justify-center active:scale-90 transition-all"
+              >
                 <GithubSVG /> GITHUB
               </RainbowButton>
-              <RainbowButton className="w-[300px] font-apex flex gap-2 items-center justify-center active:scale-90 transition-all">
+              <RainbowButton
+                onClick={() => redirect('website')}
+                className="w-[300px] font-apex flex gap-2 items-center justify-center active:scale-90 transition-all"
+              >
                 <GloboSVG /> WEBSITE
               </RainbowButton>
               <RainbowButton className="w-[300px] font-apex flex gap-2 items-center justify-center active:scale-90 transition-all">
@@ -103,10 +121,10 @@ export const Projects = (): JSX.Element => {
             </div>
           </div>
 
-          <div className="flex flex-wrap gap-2 justify-center items-center w-full">
+          {/* <div className="flex flex-wrap gap-2 justify-center items-center w-full">
             <Image src={ProjectNow} alt="Project Now" className="w-[200px]" />
             <Image src={ProjectNow} alt="Project Now" className="w-[200px]" />
-          </div>
+          </div> */}
         </div>
       </div>
 

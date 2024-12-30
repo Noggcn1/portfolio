@@ -6,6 +6,7 @@ import { Provider } from '@/components/provider';
 import { Projects } from '@/components/projects';
 import { Contact } from '@/components/contact';
 import { Footer } from '@/components/footer';
+import { ScrollToTopOrb } from '@/components/orbTop';
 
 export default function Home(): JSX.Element {
   return (

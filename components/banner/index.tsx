@@ -14,7 +14,7 @@ export const Banner = (): JSX.Element => {
   const sectionActual = section === 'banner';
 
   return (
-    <div className="w-full px-2" onMouseOver={onMouseOver}>
+    <div id="banner" className="w-full px-2" onMouseOver={onMouseOver}>
       <div className="relative flex h-[400px] md:h-[600px] lg:h-[900px] xl:h-[900px] 2xl:h-[1000px] min-w-full items-end justify-center lg:items-center lg:justify-start">
         <h1 className="text-[60px] md:text-[100px] lg:text-[110px] xl:text-[128px] font-audiowide text-white leading-none md:pl-[30px] lg:pl-[100px] z-30">
           Hi there, <br /> I&apos;m <span className="text-[#9D2BDF]">Nogg</span>
